@@ -1,0 +1,218 @@
+/* Estilos generales */
+body {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    border: solid 1px #e94823;
+    background-color: #e94823;
+}
+
+header h1 {
+    font-family: fantasy;
+    color: #000;
+    border-radius: 5px;
+    padding-bottom: 35px;
+    margin-top: 49px;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    padding-top: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #e94823;
+
+}
+
+nav ul li {
+    margin: 0 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #ffff;
+}
+
+/*estilos pag principal sections */
+.section1 {
+    border: solid 2px #ffffff;
+    margin: auto;
+    background-color: #e94823;
+}
+
+.conte_principal {
+    background-color: #e94823;
+}
+
+.imagePrincipal {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    padding-left: 240px;
+
+}
+
+.section2 {
+    background-color: #e94823;
+    border-color: #ffffff;
+    margin: auto;
+
+}
+
+.imagesPlayas {
+    width: 450px;
+    height: 400px;
+    padding-left: 280px;
+}
+
+.section3 {
+    background-color: #e94823;
+    border: solid #ffffff;
+    margin: auto;
+}
+
+.imagesfrios {
+    width: 400px;
+    height: 350px;
+    padding-left: 320px;
+}
+
+/* Sección de productos */
+h2 {
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.productos div {
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 14px;
+    color: #e94823;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.productos div:hover {
+    color: #000;
+}
+
+.imagenpro {
+    width: 450px;
+    height: 300px;
+    border-style: none;
+    border-radius: 3px;
+    margin-left: 260px;
+}
+
+.imagenpro:hover {
+    border: solid 3px #000;
+
+}
+
+/* Sección de texto */
+section {
+    margin: 20px auto;
+    width: 80%;
+    padding: 10px;
+}
+
+section p {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* estilos a noticias */
+
+a {
+    text-decoration: none;
+}
+
+.txtnoti {
+    background-color: #e94823;
+    color: #000;
+
+}
+
+.txtnoti:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+
+
+/*estilos de registro y formulario */
+form {
+    width: 450px;
+    border: solid 2px #000;
+    margin-left: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
+.mapa {
+    width: 500px;
+    height: 500px;
+    margin-left: 250px;
+}
+
+.titulomapa {
+    margin-left: 350px;
+    font-size: 25px;
+    color: #000;
+}
+
+/*estilos footer*/
+
+.piedepag {
+    height: 65px;
+    width: 100%;
+    border: solid #ffffff;
+    background-color: #e94823;
+    padding-top: 28px;
+}
+
+.iconfooter {
+    width: 50px;
+    height: 50px;
+    margin-left: 200px;
+    border: solid 2px #ffffff;
+    border-radius: 2px;
+
+}
+
+.iconfooter:hover {
+    background-color: #ffffff;
+}
